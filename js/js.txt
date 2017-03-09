@@ -1,0 +1,10 @@
+<script type="text/javascript">
+(function() {
+var bodyEl= $('body'),
+   navToggleBtn=bodyEl.find('.nav-toggle-btn');
+  navToggleBtn.on('Click', function(e){
+    BodyEl.toggleClass('active-nav');
+	e.preventDefault();
+	});
+	})();
+	</script>
