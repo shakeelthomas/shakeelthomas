@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<!--linking css to html-->
+	  <link rel="stylesheet" type="text/css" href="Stylesheet/Styles.css" />
+ <img style="border:1px solid green;" src="Images/logo.jpg" width="225" height="151" alt="Logo"/>
+             
+	  <div class="header">
+<p class="two">TENOR AND BASS PANS HOME</p>
+</head>
+</div>
+<body>
+<!--navigation bar for accessing-->
+    <nav>
+	  <ul>
+	   <li><a href="Home.html">Home</a></li>
+	   <li><a href="Basspan.html">Bass SteelPan</a><li>
+	   <li><a href="Tenor.html">Tenor SteelPan</a></li>
+	   <li><a href="Tutorial.html">Tutorials</a></li>
+	   <li><a href="AboutUs.html">About Us</a></li>
+    </ul>
+  </li> 
+     </ul>
+    </nav>
+	<!--content mateerial is placed below-->
+	<center>
+  <div class="content"> <center>
+ <center><img src ="images/basspan.gif" width="300px" height="300px";><center>
+<!--Dropdown for pan notes-->
+<div class="dropdown">
+  <button class="dropbtn">Select Note</button>
+  <div class="dropdown-content">
+
+  <div class ="a4"</div>
+<button type="button"><audio id="audio" src="audio/a4.wav" autostart="false"  ></audio>
+    <a onclick="PlaySound()">a4</a>
+    <script>
+    function PlaySound() {
+          var sound = document.getElementById("audio");
+          sound.play()
+      }
+    </script>
+			</div>
+			
+  <div class ="b4"</div>
+<button type="button"><audio id="audio1" src="audio/b4.wav" autostart="false" ></audio>
+  <a onclick="PlaySound1()">b4</a>
+    <script>
+    function PlaySound1() {
+          var sound = document.getElementById("audio1");
+          sound.play()
+      }
+    </script>
+			</div>
+
+<div class ="a5"</div>
+<button type="button"><audio id="audio2" src="audio/a5.wav" autostart="false" ></audio>
+  <a onclick="PlaySound2()">a5</a> 
+  <script>
+    function PlaySound2() {
+          var sound = document.getElementById("audio2");
+          sound.play()
+      }
+    </script>
+			</div>
+			
+			
+</body>
+	
+</html> 

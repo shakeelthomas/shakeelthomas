@@ -14,9 +14,8 @@ body{
 nav{
 	position:fixed;
 	z-index:1000;
-	width:200px;
+	width:230px;
 	background-color:#036;
-
 
 }
 
@@ -29,19 +28,83 @@ nav{
 	 display:block;
 	 text-align:center;
 	 color:#fff;
-	 padding:25px 0;
+	 padding:29px 0;
 	 
  }
+ 
+body
+{
+    -moz-transform: scale(0.9, 0.9); 
+    zoom: 0.100; 
+    zoom: 100%; 
+    font-family: lucida grande ,tahoma,verdana,arial,sans-serif;
+    background-color:#ADD8E6; 
+    background-repeat: repeat;
+}
 
  /*allows content to be displayed in the appropriate place*/
 .content{
-	padding-top:10px;
-	height:450px;
+	padding-top:20px;
+	height:490px;
 	background-color:#ccf;
 	text-align:center;
 	border:1px solid green;
 
 }
+
+.notes{
+border-style:solid;
+width: 945px;
+height: 128px;
+padding:30px;
+float: center; 
+}
+.dropbtn {
+    background-color: none;
+    color: blue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+	text-align:left;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+    padding-right: 600%;
+   
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+
+	
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
 
 
 
