@@ -1,4 +1,4 @@
-
+//Alows image to be skipped or to go back
   	var imageCount = 1;
 	 $('.left').click(function(){
 		 imageCount++;

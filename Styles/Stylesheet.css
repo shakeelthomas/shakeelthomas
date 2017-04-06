@@ -1,4 +1,4 @@
-body
+body /*Gives design to the body of the webpages*/
 {
     font-family: lucida grande ,tahoma,verdana,arial,sans-serif;
     background-image: url(https://img.clipartfest.com/4a9314a448b6f20c5c3164f4b2426ea6_pan-steel-drum-clipart-steel-drum-clipart_580-562.jpeg);
@@ -10,7 +10,7 @@ body p
     font-size: 0.8em;
     line-height: 1.28;
 }
-
+/*Designs the outta layer of webpage*/
 #wrapper
 {
     width: 1080px;
@@ -21,7 +21,7 @@ body p
     padding: 10px;
     border: 2px solid black;
 }
-
+/*gives design to the banner and adjusts it*/
 #banner
 {
     background-image: url(http://www.discovertnt.com/wp-content/uploads/2015/12/TDC_Panorama.jpg);
@@ -30,7 +30,7 @@ body p
     border: 2px solid black;    
     height:450px;
 }
-
+/*Designs content/body of the webpages*/
 #content_area
 {
     float: left;
@@ -62,7 +62,7 @@ background-image: url(http://i.imgur.com/JSudtrh.png);
     color: #2481a3;
     
 }
-
+/*Gives design to footer along with adjustments */
 footer
 {
     clear: both;
@@ -75,7 +75,7 @@ footer
     text-shadow: 0.1em 0.1em #333;
     background-image: url(http://i.imgur.com/UBm7uCC.png);
 }
-
+/*Designs navigation bar and adjusts it */
 #navigation
 {
     height: 90px;
@@ -122,7 +122,7 @@ footer
 {
     color: lightblue;
 }
-
+/*allows to skip or go back on images in gallery webpage*/
 .imgLeft
 {
     float: left;
@@ -139,4 +139,58 @@ footer
     height: 250px;
     margin: 0px 0 10px 10px;
     padding: 10px;
+}
+/*Designs how notes are displayed on tenor pan*/
+.notes{
+border-style:solid;
+width: 945px;
+height: 128px;
+padding:30px;
+float: center; 
+}
+.dropbtn {
+    background-color: none;
+    color: blue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+text-align: left;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: yellow;
 }
